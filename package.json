@@ -1,0 +1,27 @@
+{
+    "name": "evrnts-webhook",
+    "version": "0.1.0",
+    "description": "Box Events Demo Webhook for Task Completion",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "John Koepp",
+    "license": "Apache (2.0)",
+    "dependencies": {
+        "box-node-sdk": "^3.6.0",
+        "jimp": "^0.16.2",
+        "nodemailer": "^6.9.14",
+        "serverless": "^3.24.1"
+    },
+    "devDependencies": {
+        "babel-eslint": "^7.1.1",
+        "eslint": "^3.16.0",
+        "eslint-config-airbnb": "^14.1.0",
+        "eslint-plugin-babel": "^4.0.1",
+        "eslint-plugin-import": "^2.2.0",
+        "eslint-plugin-jsx-a11y": "^4.0.0",
+        "eslint-plugin-react": "^6.10.0",
+        "serverless-dotenv-plugin": "^6.0.0"
+    }
+}
